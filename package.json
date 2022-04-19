@@ -20,7 +20,8 @@
     "---------": "",
     "release": "semantic-release",
     "--------- ": "",
-    "test": "umi-test",
+    "test": "yarn lint",
+    "_test": "umi-test",
     "test:coverage": "umi-test --coverage",
     "---------  ": "",
     "lint": "eslint --cache --quiet ./src --ext .ts,.tsx,.js --format=pretty && yarn type-check",
@@ -73,5 +74,9 @@
     "semantic-release-config-gitmoji": "^1.2.4",
     "commitlint": "^16.2.3",
     "commitlint-config-gitmoji": "^2.2.5"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
