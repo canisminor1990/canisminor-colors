@@ -1,0 +1,9 @@
+{
+	"hooks": {
+		"pre-commit"   : "lint-staged",
+		"commit-msg"   : "commitlint -e $HUSKY_GIT_PARAMS",
+		"post-checkout": "yarnhook",
+		"post-merge"   : "yarnhook",
+		"post-rewrite" : "yarnhook"
+	}
+}
