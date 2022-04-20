@@ -29,10 +29,12 @@ jobs:
       - name: Test
         run: yarn test
 
-      - name: Deploy
+      - name: Build
         run: |
           yarn docs:build
           yarn docs:deploy
+
+      - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
