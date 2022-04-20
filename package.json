@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Color system for canisminor",
   "main": "src/index.ts",
-  "repository": "git@github.com:canisminor1990/canisminor-colors.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canisminor1990/canisminor-colors.git"
+  },
   "author": "CanisMinor <i@canisminor.cc>",
   "module": "es/index.js",
   "typings": "es/index.d.ts",
@@ -20,18 +23,17 @@
     "---------": "",
     "release": "semantic-release",
     "--------- ": "",
-    "test": "yarn lint",
-    "_test": "umi-test",
+    "test": "umi-test",
     "test:coverage": "umi-test --coverage",
     "---------  ": "",
-    "lint": "eslint --cache --quiet ./src --ext .ts,.tsx,.js --format=pretty && yarn type-check",
+    "lint": "eslint --fix --cache --quiet ./src --ext .ts,.tsx,.js --format=pretty && yarn type-check",
     "lint:fix": "eslint --fix --cache --quiet --ext .js,.jsx,.ts,.tsx --format=pretty",
     "lint-staged": "lint-staged",
     "type-check": "tsc --noEmit",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
     "---------   ": "",
     "clean": "rm -rf dist",
-    "reinstall": "yarn clean && rm -rf node_modules && yarn -W"
+    "reinstall": "yarn clean && rm -rf node_modules && yarn"
   },
   "lint-staged": {
     "*.{js,jsx,less,md,json}": [
@@ -44,36 +46,40 @@
     ]
   },
   "dependencies": {
-    "react": "^16.12.0 || ^17.0.0"
+    "react": "^18.x",
+    "react-dom": "^18.x"
   },
   "devDependencies": {
+    "@material/material-color-utilities": "^0.1.1",
     "@radix-ui/colors": "^0.1.8",
-    "@testing-library/jest-dom": "^5.15.1",
-    "@testing-library/react": "^12.1.2",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
     "@types/chroma-js": "^2.1.3",
     "@types/jest": "^27.0.3",
     "@types/node": "^17.0.23",
+    "@types/react": "^18.x",
+    "@types/react-dom": "^18.x",
     "@typescript-eslint/eslint-plugin": "^5.20.0",
     "@typescript-eslint/parser": "^5.20.0",
-    "@umijs/fabric": "^2.8.1",
-    "@umijs/test": "^3.0.5",
+    "@umijs/fabric": "^2.10.2",
+    "@umijs/test": "^3.5.23",
     "chroma-js": "^2.4.2",
+    "commitlint": "^16.2.3",
+    "commitlint-config-gitmoji": "^2.2.5",
     "dumi": "^1.1.0",
-    "father-build": "^1.17.2",
-    "gh-pages": "^3.0.0",
-    "lint-staged": "^12.3.8",
-    "prettier": "^2.2.1",
-    "yorkie": "^2.0.0",
-    "husky": "^7.0.4",
     "eslint": "^8.12.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-formatter-pretty": "^4.1.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
+    "father-build": "^1.17.2",
+    "gh-pages": "^3.0.0",
+    "husky": "^4.3.8",
+    "lint-staged": "^12.3.8",
+    "prettier": "^2.2.1",
     "semantic-release": "^19.0.2",
     "semantic-release-config-gitmoji": "^1.2.4",
-    "commitlint": "^16.2.3",
-    "commitlint-config-gitmoji": "^2.2.5"
+    "yorkie": "^2.0.0"
   },
   "publishConfig": {
     "access": "public",

@@ -10,7 +10,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Foo } from 'canisminor-ui';
+import { Foo } from '@canisminor/colors';
 
 export default () => <Foo title="First Demo" />;
 ```
