@@ -4,9 +4,9 @@
 
 <!-- SHIELD GROUP -->
 
-[![npm][npm-shield]][npm-url] [![release][release-shield]][release-url] [![releaseDate][release-date-shield]][release-date-url] [![ciTest][ci-test-shield]][ci-test-url] [![ciRelease][ci-release-shield]][ci-release-url]
+[![npm][npm-shield]][npm-url] [![release][release-shield]][release-url] [![releaseDate][release-date-shield]][release-date-url] [![ciTest][ci-test-shield]][ci-test-url] [![ciRelease][ci-release-shield]][ci-release-url] [![codecov][codecov-shield]][codecov-url]
 
-[![contributors][contributors-shield]][contributors-url] [![forks][forks-shield]][forks-url] [![stargazers][stargazers-shield]][stargazers-url] [![issues][issues-shield]][issues-url] [![license][license-shield]][license-url]
+[![dumi][dumi-shield]][dumi-url] [![forks][forks-shield]][forks-url] [![stargazers][stargazers-shield]][stargazers-url] [![issues][issues-shield]][issues-url] [![license][license-shield]][license-url]
 
 Install dependencies,
 
@@ -65,10 +65,15 @@ $ npm run build
 [ci-release-shield]: https://github.com/canisminor1990/canisminor-colors/workflows/Release/badge.svg
 [ci-release-url]: https://github.com/canisminor1990/canisminor-colors/actions?query=Release
 
-<!-- contributors -->
+<!-- codecov -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/canisminor1990/canisminor-colors.svg?style=flat
-[contributors-url]: https://github.com/canisminor1990/canisminor-colors/graphs/contributors
+[codecov-shield]: https://codecov.io/gh/canisminor1990/canisminor-colors/branch/master/graph/badge.svg?token=RB2A4XW8OI
+[codecov-url]: https://codecov.io/gh/canisminor1990/canisminor-colors
+
+<!-- dumi -->
+
+[dumi-shield]: https://img.shields.io/badge/docs%20by-dumi-blue
+[dumi-url]: https://github.com/umijs/dumi
 
 <!-- forks -->
 
