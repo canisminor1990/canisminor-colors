@@ -33,9 +33,7 @@ jobs:
         run: yarn docs:build
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.1.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: docs-dist # The folder the action should deploy.
-          CLEAN: true # Automatically remove deleted files from the deploy branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs-dist
