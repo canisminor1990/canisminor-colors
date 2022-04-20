@@ -72,8 +72,8 @@ $ npm run build
 
 <!-- dumi -->
 
-[dumi-shield]: https://img.shields.io/badge/docs%20by-dumi-blue
-[dumi-url]: https://github.com/umijs/dumi
+[dumi-shield]: https://img.shields.io/website?label=dumi%20docs&url=https%3A%2F%2Fcanisminor1990.github.io%2Fcanisminor-colors%2F
+[dumi-url]: https://canisminor1990.github.io/canisminor-colors/
 
 <!-- forks -->
 

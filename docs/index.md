@@ -1,7 +1,7 @@
 ---
 hero:
-  title: canisminor-ui
-  desc: canisminor-ui site example
+  title: @canisminor/colors
+  desc: 🎨 Color system for canisminor
   actions:
     - text: Getting Started
       link: /components
@@ -18,4 +18,4 @@ features:
 footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
 ---
 
-## Hello canisminor-ui!
+## Hello @canisminor/colors
