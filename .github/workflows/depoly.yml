@@ -30,9 +30,7 @@ jobs:
         run: yarn test
 
       - name: Build
-        run: |
-          yarn docs:build
-          yarn docs:deploy
+        run: yarn docs:build
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
