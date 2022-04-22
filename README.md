@@ -1,42 +1,62 @@
 # @canisminor/colors
 
-## Getting Started
-
 <!-- SHIELD GROUP -->
 
 [![npm][npm-shield]][npm-url] [![release][release-shield]][release-url] [![releaseDate][release-date-shield]][release-date-url] [![ciTest][ci-test-shield]][ci-test-url] [![ciRelease][ci-release-shield]][ci-release-url] [![codecov][codecov-shield]][codecov-url]
 
 [![dumi][dumi-shield]][dumi-url] [![forks][forks-shield]][forks-url] [![stargazers][stargazers-shield]][stargazers-url] [![issues][issues-shield]][issues-url] [![license][license-shield]][license-url]
 
-Install dependencies,
+Self-use color system and utils.
+
+# Installation
+
+How to install
 
 ```bash
-$ npm i
+# with npm
+npm install @canisminor/colors --save-dev
+
+# with yarn
+yarn add @canisminor/colors --dev
 ```
 
-Start the dev server,
+## Development
+
+Install dependencies
 
 ```bash
-$ npm start
+$ yarn
 ```
 
-Build documentation,
+Start the dev server
 
 ```bash
-$ npm run docs:build
+$ yarn start
 ```
 
-Run test,
+Build documentation
 
 ```bash
-$ npm test
+$ yarn docs:build
 ```
 
-Build library via `father-build`,
+Run test
 
 ```bash
-$ npm run build
+$ yarn test
 ```
+
+Build library via `father-build`
+
+```bash
+$ yarn build
+```
+
+## Acknowledgments
+
+- [material-color-utilities](https://github.com/material-foundation/material-color-utilities)
+- [radix-ui/colors](https://github.com/radix-ui/colors)
+- [antd/colors](https://ant.design/docs/spec/colors-cn)
 
 <!-- SHIELD LINK GROUP -->
 
