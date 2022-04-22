@@ -19,7 +19,7 @@
       "@material/material-color-utilities": ["packages/material-color-utilities"]
     }
   },
-  "include": ["src/**/*", ".umirc.ts", "typings.d.ts"],
+  "include": ["packages/**/*", "src/**/*", ".umirc.ts", "typings.d.ts"],
   "exclude": [
     "node_modules",
     "lib",
