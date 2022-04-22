@@ -1,6 +1,6 @@
 {
   "name": "@canisminor/colors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Color system for canisminor",
   "main": "src/index.ts",
   "repository": {
