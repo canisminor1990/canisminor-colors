@@ -2,7 +2,6 @@ import { defineConfig } from 'dumi';
 import path from 'path';
 
 const resolve = (dir: string): string => path.resolve(__dirname, dir);
-
 // more config: https://d.umijs.org/zh-CN/config
 export default defineConfig({
   base: '/canisminor-colors',

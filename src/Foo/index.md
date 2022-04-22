@@ -1,7 +1,10 @@
 ---
 nav:
-  title: Components
-  path: /components
+  title: Documentation
+  path: /documentation
+group:
+  title: Palette Composition
+  path: palette-composition
 ---
 
 ## Foo
