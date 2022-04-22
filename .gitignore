@@ -98,3 +98,4 @@ coverage
 /src/.umi-test
 /.env.local
 /docs-dist
+/es

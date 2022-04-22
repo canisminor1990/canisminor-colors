@@ -1,7 +1,8 @@
 {
   "name": "@canisminor/colors",
   "version": "1.0.0",
-  "description": "Color system for canisminor",
+  "description": "\uD83C\uDFA8 Color system for canisminor",
+  "license": "MIT",
   "main": "src/index.ts",
   "repository": {
     "type": "git",

@@ -10,6 +10,7 @@
     "types": ["@types/node", "jest"],
     "sourceMap": true,
     "baseUrl": "./",
+    "rootDir": "./",
     "skipLibCheck": true,
     "declaration": true,
     "strict": true,
