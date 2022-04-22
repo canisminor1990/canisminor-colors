@@ -1,21 +1,21 @@
 ---
-hero:
-  title: A gorgeous, accessible color system
-  desc: An open-source color system for designing beautiful, accessible websites and apps.
-  actions:
-    - text: GitHub
-      link: https://github.com/canisminor1990/canisminor-colors
-    - text: Documentation
-      link: /documentation
-features:
-  - title: Accessibility made easy
-    desc: Each step is designed for a specific use case, with multiple combinations guaranteed to pass WCAG contrast ratio.
-  - title: Automatic dark mode
-    desc: Switching to dark theme is as simple as applying a class to a container. Dark mode Just Works.
-  - title: Transparent variants
-    desc: Each scale has a matching transparent variant, which is handy for UI components that need to blend into colored backgrounds.
-footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
+order: 1
+nav:
+  title: Documentation
+  path: /documentation
+group:
+  title: Palette Composition
+  path: palette-composition
+  order: 2
 ---
+
+# The Scales
+
+An overview of all 30 Radix Colors scales.
+
+## Colors
+
+Provides 15 color scales, designed for white foreground text at step `8`.
 
 ### Tomato
 
@@ -137,6 +137,10 @@ import { ScalePreview, Brown } from '@canisminor/colors';
 export default () => <ScalePreview scale={Brown} />;
 ```
 
+## Bright Colors
+
+Provides 5 bright scales, designed for black foreground text at step `8`.
+
 ### Sky
 
 ```tsx
@@ -176,6 +180,10 @@ import React from 'react';
 import { ScalePreview, Amber } from '@canisminor/colors';
 export default () => <ScalePreview scale={Amber} />;
 ```
+
+## Grays
+
+Provides 6 gray scales.
 
 ### Gray
 
@@ -224,6 +232,10 @@ import React from 'react';
 import { ScalePreview, Sand } from '@canisminor/colors';
 export default () => <ScalePreview scale={Sand} />;
 ```
+
+## Metals
+
+Provides 2 metal scales.
 
 ### Sand
 

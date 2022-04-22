@@ -12,3 +12,4 @@ jest*
 
 *.md
 **/*.md
+/packages

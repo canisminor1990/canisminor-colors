@@ -1,18 +1,12 @@
 import chroma from 'chroma-js';
 import { lightStepList, darkStepList, IStepItem } from './stepList';
-import { argbFromHex, HCT, hexFromArgb } from '@page/temp/material-color-utilities';
-
-interface IColorStep {
-  light: string[];
-  lightA: string[];
-  dark: string[];
-  darkA: string[];
-}
+import { argbFromHex, Hct, hexFromArgb } from '@material/material-color-utilities';
+import { IColorScale, palettes } from '@/Scales';
 
 class ColorScale {
   BALANCE = 24;
 
-  gen(mainColor: string, strict = false): IColorStep {
+  gen(mainColor: string, strict = false): IColorScale {
     const lightStep = this.genLightStep(mainColor, strict);
     const darkStep = this.genDarkStep(mainColor, strict);
     return {
@@ -20,6 +14,9 @@ class ColorScale {
       lightA: lightStep.map((color) => this.getAlphaColor(color, false)),
       dark: darkStep,
       darkA: darkStep.map((color) => this.getAlphaColor(color, true)),
+      palettes: function (isDark, isAlpha) {
+        return palettes(this, isDark, isAlpha);
+      },
     };
   }
 
@@ -75,19 +72,19 @@ class ColorScale {
   }
 
   private hctToHex(hct: number[]): string {
-    const hclColor = HCT.from(Math.round(hct[0]), Math.round(hct[1]), Math.round(hct[2]));
+    const hclColor = Hct.from(Math.round(hct[0]), Math.round(hct[1]), Math.round(hct[2]));
     return hexFromArgb(hclColor.toInt());
   }
 
   private hexToHct(hex: string): number[] {
-    const hclColor = HCT.fromInt(argbFromHex(hex));
+    const hclColor = Hct.fromInt(argbFromHex(hex));
     return [Math.round(hclColor.hue), Math.round(hclColor.chroma), Math.round(hclColor.tone)];
   }
 
   private hRotate(hue: number): number {
     if (hue >= 0 && hue <= 360) return hue;
     if (hue < 0) return hue + 360;
-    if (hue > 360) return hue - 360;
+    return hue - 360;
   }
 
   private getAlphaColor(colorString: string, dark: boolean): string {

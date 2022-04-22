@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 import { IColorScale } from '@/Scales';
 import { Space, message } from 'antd';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
+import ScaleTest from '@/ScaleTest';
 import 'antd/dist/antd.variable.min.css';
 
 const AlphaLightBg =
@@ -65,7 +66,7 @@ const ScaleRow: React.FC<IScaleRowProps> = ({ title, scale }) => {
       {scale.map((color, index) => {
         return (
           <CopyToClipboard key={index} text={color}>
-            <ScaleBox style={style} onClick={() => message.success(color)}>
+            <ScaleBox title={color} style={style} onClick={() => message.success(color)}>
               <ScaleItem style={{ backgroundColor: color }} />
             </ScaleBox>
           </CopyToClipboard>
@@ -77,9 +78,10 @@ const ScaleRow: React.FC<IScaleRowProps> = ({ title, scale }) => {
 
 interface IScalePreviewProps {
   scale: IColorScale;
+  showTest?: boolean;
 }
 
-const ScalePreview: React.FC<IScalePreviewProps> = ({ scale }) => {
+const ScalePreview: React.FC<IScalePreviewProps> = ({ scale, showTest = true }) => {
   return (
     <div>
       <Space direction="vertical" size={2}>
@@ -97,6 +99,7 @@ const ScalePreview: React.FC<IScalePreviewProps> = ({ scale }) => {
         <ScaleRow key="lightA" title="lightA" scale={scale.lightA} />
         <ScaleRow key="dark" title="dark" scale={scale.dark} />
         <ScaleRow key="darkA" title="darkA" scale={scale.darkA} />
+        {showTest ? <ScaleTest scale={scale} title="test" /> : null}
       </Space>
     </div>
   );

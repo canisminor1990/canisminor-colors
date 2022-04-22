@@ -1,4 +1,10 @@
-export { default as Foo } from './Foo';
-export { default as DocThemeProvider } from './DocThemeProvider';
-export { default as ScalePreview } from './ScalePreview';
+// scales
 export * from './Scales';
+
+// components
+export { default as ScalePreview } from './ScalePreview';
+export { default as ScaleTest } from './ScaleTest';
+
+// utils
+export { default as scaleGenerator } from './ScaleGenerator';
+export { default as scaleAATest } from './ScaleTest/scaleAATest';

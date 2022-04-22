@@ -15,5 +15,6 @@ export default defineConfig({
   mode: 'site',
   alias: {
     '@': resolve('src/'),
+    '@material/material-color-utilities': resolve('packages/material-color-utilities/'),
   },
 });
