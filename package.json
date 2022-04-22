@@ -84,7 +84,7 @@
     "father-build": "^1.17.2",
     "gh-pages": "^3.2.3",
     "husky": "^4.3.8",
-    "lint-staged": "^12.3.8",
+    "lint-staged": "^12.4.0",
     "prettier": "^2.2.1",
     "react-copy-to-clipboard": "^5.1.0",
     "semantic-release": "^19.0.2",
