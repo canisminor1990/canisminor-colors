@@ -6922,7 +6922,7 @@ fastq@^1.6.0:
   dependencies:
     reusify "^1.0.4"
 
-father-build@^1.17.2:
+father-build@^1.22.1:
   version "1.22.1"
   resolved "https://registry.npmmirror.com/father-build/-/father-build-1.22.1.tgz#3bb5885ee52ff82a7547960c9ebb3c0657a15f8b"
   integrity sha512-ZPFPUubOe1qJzYAUHGEmD4P+CdmlQxsI7MGZiO7Lom0lRDIcQRENtvSOaX/lN5aAL9abKMWCRRmqQkK2hTpzKA==

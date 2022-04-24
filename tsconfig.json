@@ -7,7 +7,7 @@
     "importHelpers": true,
     "jsx": "react",
     "esModuleInterop": true,
-    "types": ["@types/node", "jest"],
+    "typeRoots": ["node_modules/@types", "./typings"],
     "sourceMap": true,
     "baseUrl": "./",
     "rootDir": "./",
@@ -20,7 +20,7 @@
       "@material/material-color-utilities": ["packages/material-color-utilities"]
     }
   },
-  "include": ["packages/**/*", "src/**/*", ".umirc.ts", "typings.d.ts"],
+  "include": ["src/**/*", "packages/**/*", "typings/**/*", ".umirc.ts", "typings.d.ts"],
   "exclude": [
     "node_modules",
     "lib",
