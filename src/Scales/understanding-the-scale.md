@@ -33,3 +33,45 @@ This table is a simple overview of the most common use case for each step. Howev
 | 9    | Hovered solid backgrounds               |
 | 10   | Low-contrast text                       |
 | 11   | High-contrast text                      |
+
+## Demo
+
+```ts
+import { Blue } from '@canisminor/colors';
+
+// light
+const lightPalette: IColorPalette = Blue.palettes();
+// lightA
+const lightAPalette: IColorPalette = Blue.palettes(false, true);
+// dark
+const darkPalette: IColorPalette = Blue.palettes(true);
+// darkA
+const darkAPalette: IColorPalette = Blue.palettes(ture, false);
+```
+
+## API
+
+| name | type | optional | default | description |
+| --- | --- | --- | --- | --- |
+| light | `string[]` | `false` | `n/a` |  |
+| lightA | `string[]` | `false` | `n/a` |  |
+| dark | `string[]` | `false` | `n/a` |  |
+| darkA | `string[]` | `false` | `n/a` |  |
+| palettes | `(isDark?: boolean \| undefined, isAlpha?: boolean \| undefined) => IColorPalette` | `false` | `n/a` |  |
+
+### IColorPalette
+
+| name                     | type     | optional | default | description |
+| ------------------------ | -------- | -------- | ------- | ----------- |
+| appBackground            | `string` | `false`  | `n/a`   |             |
+| subtleBackground         | `string` | `false`  | `n/a`   |             |
+| elementBackground        | `string` | `false`  | `n/a`   |             |
+| hoveredElementBackground | `string` | `false`  | `n/a`   |             |
+| activeElementBackground  | `string` | `false`  | `n/a`   |             |
+| subtleBorder             | `string` | `false`  | `n/a`   |             |
+| elementBorder            | `string` | `false`  | `n/a`   |             |
+| hoveredElementBorder     | `string` | `false`  | `n/a`   |             |
+| solidBackground          | `string` | `false`  | `n/a`   |             |
+| hoveredSolidBackground   | `string` | `false`  | `n/a`   |             |
+| lowContrastText          | `string` | `false`  | `n/a`   |             |
+| highContrastText         | `string` | `false`  | `n/a`   |             |

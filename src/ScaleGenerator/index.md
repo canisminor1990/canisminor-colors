@@ -10,7 +10,7 @@ group:
 
 # scaleGenerator
 
-a tool to generate color scale
+A util tool to generate color scale
 
 ## How to use
 

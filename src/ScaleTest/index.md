@@ -10,7 +10,7 @@ group:
 
 # ScaleTest
 
-a component to display the result of scale contrast testing in accordance with WCAG guidelines.
+A component to display the result of scale contrast testing in accordance with WCAG guidelines.
 
 ## Example
 

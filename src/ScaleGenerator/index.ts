@@ -2,6 +2,7 @@ import chroma from 'chroma-js';
 import { lightStepList, darkStepList, IStepItem } from './stepList';
 import { argbFromHex, Hct, hexFromArgb } from '@material/material-color-utilities';
 import { IColorScale, palettes } from '@/Scales';
+import getAlphaColor from './getAlphaColor';
 
 class ColorScale {
   BALANCE = 24;
@@ -11,9 +12,9 @@ class ColorScale {
     const darkStep = this.genDarkStep(mainColor, strict);
     return {
       light: lightStep,
-      lightA: lightStep.map((color) => this.getAlphaColor(color, false)),
+      lightA: lightStep.map((color) => getAlphaColor(color, '#fff')),
       dark: darkStep,
-      darkA: darkStep.map((color) => this.getAlphaColor(color, true)),
+      darkA: darkStep.map((color) => getAlphaColor(color, '#000')),
       palettes: function (isDark, isAlpha) {
         return palettes(this, isDark, isAlpha);
       },
@@ -85,32 +86,6 @@ class ColorScale {
     if (hue >= 0 && hue <= 360) return hue;
     if (hue < 0) return hue + 360;
     return hue - 360;
-  }
-
-  private getAlphaColor(colorString: string, dark: boolean): string {
-    const [fR, fG, fB] = chroma(colorString).rgb();
-    const bashColor = dark ? 0 : 255;
-
-    for (let fA = 0.01; fA <= 1; fA += 0.01) {
-      const r = Math.round((fR - bashColor * (1 - fA)) / fA);
-      const g = Math.round((fG - bashColor * (1 - fA)) / fA);
-      const b = Math.round((fB - bashColor * (1 - fA)) / fA);
-      if (this.isStableColor(r) && this.isStableColor(g) && this.isStableColor(b))
-        return chroma(this.arrayToRgb([r, g, b, Math.round(fA * 100) / 100])).hex();
-    }
-    return chroma(this.arrayToRgb([fR, fG, fB, 1])).hex();
-  }
-
-  private arrayToRgb(rgbArray: number[]): string {
-    if (rgbArray.length < 4) {
-      return `rgb(${rgbArray.join(',')})`;
-    } else {
-      return `rgba(${rgbArray.join(',')})`;
-    }
-  }
-
-  private isStableColor(color: number): boolean {
-    return color >= 0 && color <= 255;
   }
 }
 

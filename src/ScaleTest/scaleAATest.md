@@ -10,7 +10,7 @@ group:
 
 # scaleTest
 
-a test suite for testing scale contrast in accordance with WCAG guidelines.
+A test suite for testing scale contrast in accordance with WCAG guidelines.
 
 ## How to use
 
