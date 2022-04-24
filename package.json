@@ -1,6 +1,6 @@
 {
   "name": "@canisminor/colors",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "🎨 Color system for canisminor",
   "license": "MIT",
   "main": "src/index.ts",
