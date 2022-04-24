@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/canisminor1990/canisminor-colors/compare/v1.1.0...v1.1.1) (2022-04-24)
+
+
+### 🐛 Bug Fixes
+
+* types ([f55d6d6](https://github.com/canisminor1990/canisminor-colors/commit/f55d6d6))
+
 # [1.1.0](https://github.com/canisminor1990/canisminor-colors/compare/v1.0.2...v1.1.0) (2022-04-24)
 
 
