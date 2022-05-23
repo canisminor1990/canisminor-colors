@@ -3268,9 +3268,9 @@
     regenerate-unicode-properties "9.0.0"
 
 "@umijs/fabric@^2.10.2":
-  version "2.11.0"
-  resolved "https://registry.yarnpkg.com/@umijs/fabric/-/fabric-2.11.0.tgz#13359c88f023df7476672c2f0d829bb8b46301b6"
-  integrity sha512-P3l9JDDHBuo1tYTvhgUQNw7uE9mtuCsN1OT4hyWin2L3DhCjNVQ3WwywYIFXybRXGQlGJC3Psiak48Zlc0W4aQ==
+  version "2.11.1"
+  resolved "https://registry.yarnpkg.com/@umijs/fabric/-/fabric-2.11.1.tgz#4899d43d7a69bf80b712004a2e48f8d4763cb244"
+  integrity sha512-QVv0qELvgr3HZebi/Y1XUWlw+hVEbJRbDSmn5a64ziq9Iq3CNZqVMRqAXNfl6zugh1+DIc4YRIphJkB/VtaVSQ==
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/eslint-parser" "^7.12.1"
