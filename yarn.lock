@@ -6867,9 +6867,9 @@ fastq@^1.6.0:
     reusify "^1.0.4"
 
 father-build@^1.22.1:
-  version "1.22.1"
-  resolved "https://registry.npmmirror.com/father-build/-/father-build-1.22.1.tgz#3bb5885ee52ff82a7547960c9ebb3c0657a15f8b"
-  integrity sha512-ZPFPUubOe1qJzYAUHGEmD4P+CdmlQxsI7MGZiO7Lom0lRDIcQRENtvSOaX/lN5aAL9abKMWCRRmqQkK2hTpzKA==
+  version "1.22.2"
+  resolved "https://registry.yarnpkg.com/father-build/-/father-build-1.22.2.tgz#9fce83010ae0f5a1c13fbae11fb66f457ff1bf73"
+  integrity sha512-jUtqVMoHxgRLgCtFwexw0PHHjKdLYNo63IFm8JWdegBWMQho3tYnq/+5mT6RKCocY+7K9cujtj4Jba6gi9K5rQ==
   dependencies:
     "@babel/core" "7.12.3"
     "@babel/plugin-proposal-class-properties" "7.12.1"
