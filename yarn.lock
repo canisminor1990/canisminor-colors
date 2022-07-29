@@ -3438,10 +3438,10 @@
     prettier "2.2.1"
     regenerate-unicode-properties "9.0.0"
 
-"@umijs/fabric@^2.10.2":
-  version "2.12.2"
-  resolved "https://registry.yarnpkg.com/@umijs/fabric/-/fabric-2.12.2.tgz#31df21bfdd2c6b2bff90fbfde5321cb04d79724b"
-  integrity sha512-3fLQ3SOFmyzEbv0ELUPBRMfgMGNkWtJVnhgMmcvgtOfq4g3croDVKQetxjfjJ3cfYqVGtFfbQJ//RuEdYU3+2A==
+"@umijs/fabric@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@umijs/fabric/-/fabric-3.0.0.tgz#c85742ca7900e8c70b2a0ef10b0d4580c30c5252"
+  integrity sha512-1mkcltWbSfq0fioR4Bw8mabe1Vjo85LBE84eQM4E5uYXk2qW3zUMrZcp0z8a6RQQDiYitQl3ch8kqaDPStHODw==
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/eslint-parser" "^7.12.1"
@@ -3465,6 +3465,7 @@
     fast-glob "^3.2.4"
     os-locale "^5.0.0"
     prettier "^2.3.2"
+    prettier-plugin-organize-imports "^3.0.0"
     prettier-plugin-packagejson "^2.2.18"
     prettier-plugin-two-style-order "^1.0.0"
     stylelint "^13.0.0"
@@ -13710,6 +13711,11 @@ prettier-linter-helpers@^1.0.0:
   integrity sha512-GbK2cP9nraSSUF9N2XwUwqfzlAFlMNYYl+ShE/V+H8a9uNl/oUqB1w2EL54Jh0OlyRSd8RfWYJ3coVS4TROP2w==
   dependencies:
     fast-diff "^1.1.2"
+
+prettier-plugin-organize-imports@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-organize-imports/-/prettier-plugin-organize-imports-3.0.0.tgz#39739423cc7069f2a3bfa58d14f8a502ff163df2"
+  integrity sha512-juSCJs5TMOqGGPaN/A/1xzWFzRPH2LG1LPLCr64dzKaVnPafJdtgDNmDVlU+8A4LbQzVJg0DTvgA8swBuIUhlg==
 
 prettier-plugin-packagejson@^2.2.18:
   version "2.2.18"
