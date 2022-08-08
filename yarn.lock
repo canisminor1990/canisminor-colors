@@ -2074,10 +2074,10 @@
     stringify-entities "^3.0.1"
     stringify-object "^3.3.0"
 
-"@material/material-color-utilities@^0.1.1":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@material/material-color-utilities/-/material-color-utilities-0.1.2.tgz#2b85caaa3ab17408ddb7e586d6ae339e1f140175"
-  integrity sha512-uKkkx7Xo1AZJR0eMjH902rAb0vEjDbb3tgXt0cC3SHbpDGkPNhkuDKtxnw147axOM6uKuI7vywHRQlDrjDGhCA==
+"@material/material-color-utilities@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@material/material-color-utilities/-/material-color-utilities-0.2.0.tgz#adc64dfea1eb124ff0654fa833a180d7080cbbaa"
+  integrity sha512-Wux17VAe27abfUyA+yPq/xN7+e6xkj1UFKd9g02KD0HhpM+GRqXLfytJ6nJKhFtliZouQfTcBcOg2cGrt/XbKA==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
