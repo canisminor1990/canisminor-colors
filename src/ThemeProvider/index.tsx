@@ -76,6 +76,7 @@ interface IThemeConfig {
 }
 
 interface IThemeProviderProps {
+  children?: any;
   config?: {
     css?: boolean;
     cssUrl?: {
@@ -95,7 +96,7 @@ interface IThemeProviderProps {
   };
 }
 
-export const ThemeProvider: React.FC<IThemeProviderProps> = ({ config, ...props }) => {
+export const ThemeProvider: React.FC<IThemeProviderProps> = ({ children, config, ...props }) => {
   const [themeMode, setThemeMode] = React.useState<'light' | 'dark'>(window?.themeMode ?? 'light');
   const isDarkMode = themeMode === 'dark';
   const defaultConfig: IThemeConfig = {
@@ -184,5 +185,9 @@ export const ThemeProvider: React.FC<IThemeProviderProps> = ({ config, ...props 
     inverseInfoA: themeConfig.theme.info.palettes(!isDarkMode, true),
   };
 
-  return <CmThemeProvider {...props} theme={themeSchema} />;
+  return (
+    <CmThemeProvider {...props} theme={themeSchema}>
+      {children}
+    </CmThemeProvider>
+  );
 };
