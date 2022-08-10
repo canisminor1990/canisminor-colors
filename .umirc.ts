@@ -16,4 +16,8 @@ export default defineConfig({
   alias: {
     '@material/material-color-utilities': resolve('packages/material-color-utilities/'),
   },
+  library: {
+    // 以下是 father-build（用于组件打包）的配置项，请访问：https://github.com/umijs/father#config
+    esm: 'babel',
+  },
 });
