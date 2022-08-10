@@ -14,7 +14,6 @@ export default defineConfig({
   outputPath: 'docs-dist',
   mode: 'site',
   alias: {
-    '@': resolve('src/'),
     '@material/material-color-utilities': resolve('packages/material-color-utilities/'),
   },
 });
