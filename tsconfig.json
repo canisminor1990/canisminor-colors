@@ -16,8 +16,7 @@
     "strict": true,
     "allowSyntheticDefaultImports": true,
     "paths": {
-      "@/*": ["src/*"],
-      "@material/material-color-utilities": ["packages/material-color-utilities"]
+      "@/*": ["src/*"]
     }
   },
   "include": ["src/**/*", "packages/**/*", "typings/**/*", ".umirc.ts", "typings.d.ts"],

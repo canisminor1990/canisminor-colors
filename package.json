@@ -1,11 +1,11 @@
 {
   "name": "@canisminor/colors",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "🎨 Color system for canisminor",
   "license": "MIT",
-  "main": "dist/index.ts",
-  "module": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "main": "dist/cjs/index.ts",
+  "module": "dist/cjs/index.js",
+  "typings": "dist/cjs/index.d.ts",
   "files": [
     "dist"
   ],
