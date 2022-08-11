@@ -1,5 +1,18 @@
 # Changelog
 
+# [1.2.0](https://github.com/canisminor1990/canisminor-colors/compare/v1.1.6...v1.2.0) (2022-08-11)
+
+
+### ✨ Features
+
+* update father RC ([cf9eb64](https://github.com/canisminor1990/canisminor-colors/commit/cf9eb64))
+
+
+### 🐛 Bug Fixes
+
+* lock ([14edabe](https://github.com/canisminor1990/canisminor-colors/commit/14edabe))
+* lock ([77e2c4f](https://github.com/canisminor1990/canisminor-colors/commit/77e2c4f))
+
 ## [1.1.6](https://github.com/canisminor1990/canisminor-colors/compare/v1.1.5...v1.1.6) (2022-08-10)
 
 
