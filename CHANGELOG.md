@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.1](https://github.com/canisminor1990/canisminor-colors/compare/v1.2.0...v1.2.1) (2022-08-11)
+
+
+### 🐛 Bug Fixes
+
+* deps ([373752d](https://github.com/canisminor1990/canisminor-colors/commit/373752d))
+* test ([663909a](https://github.com/canisminor1990/canisminor-colors/commit/663909a))
+
 # [1.2.0](https://github.com/canisminor1990/canisminor-colors/compare/v1.1.6...v1.2.0) (2022-08-11)
 
 
