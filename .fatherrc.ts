@@ -1,3 +1,5 @@
-export default {
-  esm: 'babel',
-};
+import { defineConfig } from 'father';
+
+export default defineConfig({
+  cjs: {},
+});
