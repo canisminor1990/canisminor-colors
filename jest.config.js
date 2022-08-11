@@ -11,7 +11,6 @@ module.exports = {
   collectCoverageFrom: ['<rootDir>/src/**/*.ts', '<rootDir>/src/**/*.tsx'],
   moduleNameMapper: {
     '^@/(.*)': '<rootDir>/src/$1',
-    '@material/material-color-utilities': '<rootDir>/packages/material-color-utilities',
   },
   coverageDirectory: '<rootDir>/coverage/',
   testEnvironment: 'jsdom',
