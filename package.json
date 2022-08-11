@@ -97,7 +97,6 @@
     "react-copy-to-clipboard": "^5.1.0",
     "semantic-release": "^19.0.2",
     "semantic-release-config-gitmoji": "^1.2.4",
-    "tinycolor2": "^1.4.2",
     "ts-jest": "^26.x",
     "yorkie": "^2.0.0"
   },
