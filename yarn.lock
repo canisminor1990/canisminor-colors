@@ -6909,9 +6909,9 @@ fastq@^1.6.0:
     reusify "^1.0.4"
 
 father@^4.0.0-rc.8:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/father/-/father-4.1.1.tgz#7289062bb0f55848fad7a5cf2fbf67ee7ab007ef"
-  integrity sha512-U95aDlJMdRrS6cQtVEf6OXLPBLVR//zR3+COAEen9RMP/ngmCiKIyqtdx15EleZKYjspusaTEg91C3MfqlaOrw==
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/father/-/father-4.1.2.tgz#c8e5645d2985c2ebde65b363ba949a2af63d6439"
+  integrity sha512-R7yHB5Rdnj4wRr5RzHtZxmDf08mG5WWP/bE0zAD/rvK6zUBWQJhb7GcDPMW8I2QUaSRPznT8pkjUsTtWmtifRA==
   dependencies:
     "@microsoft/api-extractor" "7.29.5"
     "@umijs/babel-preset-umi" "^4.0.17"
