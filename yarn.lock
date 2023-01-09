@@ -14228,9 +14228,9 @@ select-hose@^2.0.0:
   integrity sha512-mEugaLK+YfkijB4fx0e6kImuJdCIt2LxCRcbEYPqRGCs4F2ogyfZU5IAZRdjCP8JPq2AtdNoC/Dux63d9Kiryg==
 
 semantic-release-config-gitmoji@^1.2.4:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/semantic-release-config-gitmoji/-/semantic-release-config-gitmoji-1.4.0.tgz#20a8fb6d71695320efb8c6943a4b7430a8a300f8"
-  integrity sha512-QdWrDFSargmXlX5Ctziuxc66vJ1KXDPcQysw7gRs5QU+XXPfJ4Y0EQ+gStCDRDWQc0uVL35xfzShweOTCrJBFA==
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/semantic-release-config-gitmoji/-/semantic-release-config-gitmoji-1.4.1.tgz#3e95f2826b6a9efb158ba1ac2e4221d00ab674db"
+  integrity sha512-mglWMqNcwOJi/7I7Dn9fASI5Y9wvz/NQx2/rPV1mXWrqdv6tet5NPfhDbaUDWckwK7hfDm/35BAjZl90R/yZmQ==
   dependencies:
     "@gitmoji/commit-types" "1.1.5"
     "@semantic-release/changelog" "^6"
