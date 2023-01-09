@@ -5034,19 +5034,19 @@ commander@^9.3.0:
   integrity sha512-sRPT+umqkz90UA8M1yqYfnHlZA7fF6nSphDtxeywPZ49ysjxDQybzk13CL+mXekDRG92skbcqCLVovuCusNmFw==
 
 commitlint-config-gitmoji@^2.2.5:
-  version "2.2.8"
-  resolved "https://registry.yarnpkg.com/commitlint-config-gitmoji/-/commitlint-config-gitmoji-2.2.8.tgz#37d016dfd6313f24eb9401e0155097eeea45164a"
-  integrity sha512-F8Ypdv59GoNBPY5yknYEnV81+sVqEDUXqXDIb8rDatd+TxcMuSd30P2ilKA0G/OET9eD02krwrXp9v/ggp1Kgg==
+  version "2.2.9"
+  resolved "https://registry.yarnpkg.com/commitlint-config-gitmoji/-/commitlint-config-gitmoji-2.2.9.tgz#b82024a263aa843f5801612c744f6f4119d60f52"
+  integrity sha512-z9fbkE22RUMw9KIUDadzAuxYmwwB4p1LoEaqDMNGx6fJ7JRiBAfOtD6xP+9ZO+8h5oJLg8XOsFIbmoFhkTCXRA==
   dependencies:
     "@commitlint/types" "^17"
     "@gitmoji/commit-types" "1.1.5"
     "@gitmoji/parser-opts" "1.3.1"
-    commitlint-plugin-gitmoji "2.2.2"
+    commitlint-plugin-gitmoji "2.2.3"
 
-commitlint-plugin-gitmoji@2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/commitlint-plugin-gitmoji/-/commitlint-plugin-gitmoji-2.2.2.tgz#ec95c260d7fe674755be0bf2e06beffd6cdf96db"
-  integrity sha512-/rPWBYtnhoFu6X+lZHs+nRSn4kO4gVz6XjS+bw3n16hCYPd03EkbnZdAXYvWFfuUqUe2Fs4agNxUZtZnk56HsQ==
+commitlint-plugin-gitmoji@2.2.3:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/commitlint-plugin-gitmoji/-/commitlint-plugin-gitmoji-2.2.3.tgz#06e573a00e09277835491028dde2e0400e9e64d7"
+  integrity sha512-uF3RVeKD+kRc6OWx3sIdXUeBvSuSWYiitalOw2zSLSbxabEgUV7M7FpqrSfYOgv3DdWhjy6ErMDgwKanZ7x9Lw==
   dependencies:
     "@commitlint/types" "^17"
     emoji-name-map "^1.2.9"
