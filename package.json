@@ -62,7 +62,7 @@
     "react-dom": "^18.x"
   },
   "devDependencies": {
-    "@ant-design/icons": "^4.7.0",
+    "@ant-design/icons": "^5.0.1",
     "@material/material-color-utilities": "^0.2.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
