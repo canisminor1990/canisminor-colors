@@ -3304,9 +3304,9 @@
     regenerate-unicode-properties "10.0.1"
 
 "@umijs/fabric@^2.10.2":
-  version "2.12.2"
-  resolved "https://registry.npmmirror.com/@umijs/fabric/-/fabric-2.12.2.tgz#31df21bfdd2c6b2bff90fbfde5321cb04d79724b"
-  integrity sha512-3fLQ3SOFmyzEbv0ELUPBRMfgMGNkWtJVnhgMmcvgtOfq4g3croDVKQetxjfjJ3cfYqVGtFfbQJ//RuEdYU3+2A==
+  version "2.14.1"
+  resolved "https://registry.yarnpkg.com/@umijs/fabric/-/fabric-2.14.1.tgz#e53e157c78d91b5b73e3392ae17b827d4dd3fac3"
+  integrity sha512-fOyXcbViOB+/jW+g2rCiK9XjSZVn4OzFuMZpSCriCdR/KxhxLTokvJWFm3CzBEmg9vXfrBFQ4c/ykmqoVacHtw==
   dependencies:
     "@babel/core" "^7.12.10"
     "@babel/eslint-parser" "^7.12.1"
@@ -3330,7 +3330,7 @@
     fast-glob "^3.2.4"
     os-locale "^5.0.0"
     prettier "^2.3.2"
-    prettier-plugin-packagejson "^2.2.18"
+    prettier-plugin-packagejson "2.3.0"
     prettier-plugin-two-style-order "^1.0.0"
     stylelint "^13.0.0"
     stylelint-config-css-modules "^2.2.0"
@@ -12727,10 +12727,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier-plugin-packagejson@^2.2.18:
-  version "2.2.18"
-  resolved "https://registry.npmmirror.com/prettier-plugin-packagejson/-/prettier-plugin-packagejson-2.2.18.tgz#c5dc50208d7328b10011daea775fd358d43cab1b"
-  integrity sha512-iBjQ3IY6IayFrQHhXvg+YvKprPUUiIJ04Vr9+EbeQPfwGajznArIqrN33c5bi4JcIvmLHGROIMOm9aYakJj/CA==
+prettier-plugin-packagejson@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-packagejson/-/prettier-plugin-packagejson-2.3.0.tgz#5c242a39627c227d813161618fa88e64e44e9c84"
+  integrity sha512-2SAPMMk1UDkqsB7DifWKcwCm6VC52JXMrzLHfbcQHJRWhRCj9zziOy+s+2XOyPBeyqFqS+A/1IKzOrxKFTo6pw==
   dependencies:
     sort-package-json "1.57.0"
 
