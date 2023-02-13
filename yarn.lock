@@ -5270,13 +5270,13 @@ conventional-changelog-angular@^5.0.0, conventional-changelog-angular@^5.0.11:
     compare-func "^2.0.0"
     q "^1.5.1"
 
-conventional-changelog-gitmoji-config@1.4.4:
-  version "1.4.4"
-  resolved "https://registry.yarnpkg.com/conventional-changelog-gitmoji-config/-/conventional-changelog-gitmoji-config-1.4.4.tgz#45c370c04be4684cc13c471d7f41803e2bc4c28d"
-  integrity sha512-U3mKW1+Rf3jFksukRx37H4OebxAMqj4LVEYw09+cs6nQXm06I3pESlskLaZzzu/EGDHBfKCniCK9zPLyCGABPg==
+conventional-changelog-gitmoji-config@1.4.6:
+  version "1.4.6"
+  resolved "https://registry.yarnpkg.com/conventional-changelog-gitmoji-config/-/conventional-changelog-gitmoji-config-1.4.6.tgz#b38bfbc23dba56b872070ae221637afa24e7aca9"
+  integrity sha512-dt5mCUeXARIhLt1DY+SDPIpdeiQIm/OELqJ6DKalh6CdOCOcrJ40JAwvLixO03UcNWVgLE7KnWyf0NdHN4s0iQ==
   dependencies:
     "@gitmoji/commit-types" "1.1.5"
-    "@gitmoji/parser-opts" "1.3.1"
+    "@gitmoji/parser-opts" "1.4.0"
     cosmiconfig "^7.0.0"
 
 conventional-changelog-writer@^5.0.0:
@@ -6131,6 +6131,11 @@ emittery@^0.7.1:
   version "0.7.2"
   resolved "https://registry.npmmirror.com/emittery/-/emittery-0.7.2.tgz#25595908e13af0f5674ab419396e2fb394cdfa82"
   integrity sha512-A8OG5SR/ij3SsJdWDJdkkSYUjQdCUx6APQXem0SaEePBSRg4eymGYwBkKo1Y6DU+af/Jn2dBQqDBvjnr9Vi8nQ==
+
+emoji-regex@^10:
+  version "10.2.1"
+  resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-10.2.1.tgz#a41c330d957191efd3d9dfe6e1e8e1e9ab048b3f"
+  integrity sha512-97g6QgOk8zlDRdgq1WxwgTMgEWGVAQvB5Fdpgc1MkNy56la5SKP9GsMXKDOdqwn90/41a8yPwIGk1Y6WVbeMQA==
 
 emoji-regex@^10:
   version "10.2.1"
@@ -7542,6 +7547,11 @@ github-slugger@^1.3.0:
   version "1.4.0"
   resolved "https://registry.npmmirror.com/github-slugger/-/github-slugger-1.4.0.tgz#206eb96cdb22ee56fdc53a28d5a302338463444e"
   integrity sha512-w0dzqw/nt51xMVmlaV1+JRzN+oCa1KfcgGEWhxUG16wbdA+Xnt/yoFO8Z8x/V82ZcZ0wy6ln9QDup5avbhiDhQ==
+
+gitmojis@^3:
+  version "3.13.4"
+  resolved "https://registry.yarnpkg.com/gitmojis/-/gitmojis-3.13.4.tgz#1ada02d46bc2c8d802e5ad1644acd02b5f798617"
+  integrity sha512-TRYhqnD36Xs9GHuATVRmo7hzBb+6wXYC0zxBFvLs3nma7N1WQGWW2vPTQ0+3GsGcPwSp0XVGfe3Besn4a6ip5Q==
 
 gitmojis@^3:
   version "3.13.4"
@@ -14328,9 +14338,9 @@ select-hose@^2.0.0:
   integrity sha512-mEugaLK+YfkijB4fx0e6kImuJdCIt2LxCRcbEYPqRGCs4F2ogyfZU5IAZRdjCP8JPq2AtdNoC/Dux63d9Kiryg==
 
 semantic-release-config-gitmoji@^1.2.4:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/semantic-release-config-gitmoji/-/semantic-release-config-gitmoji-1.4.1.tgz#3e95f2826b6a9efb158ba1ac2e4221d00ab674db"
-  integrity sha512-mglWMqNcwOJi/7I7Dn9fASI5Y9wvz/NQx2/rPV1mXWrqdv6tet5NPfhDbaUDWckwK7hfDm/35BAjZl90R/yZmQ==
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/semantic-release-config-gitmoji/-/semantic-release-config-gitmoji-1.4.2.tgz#b758edf9070caaee1d90d653dc5189279477a19f"
+  integrity sha512-UYu8ptxiyRyWWD9sg1emyzGosHuM227/Z11fZvwKRmzQomFoojvnFHOnYb14nHuLJphJ0dtdqoQ9mDDipp9ezQ==
   dependencies:
     "@gitmoji/commit-types" "1.1.5"
     "@semantic-release/changelog" "^6"
@@ -14338,7 +14348,7 @@ semantic-release-config-gitmoji@^1.2.4:
     "@semantic-release/github" "npm:@achingbrain/semantic-release-github"
     "@semrel-extra/npm" "^1"
     "@types/semantic-release" "^17.2.0"
-    conventional-changelog-gitmoji-config "1.4.4"
+    conventional-changelog-gitmoji-config "1.4.6"
 
 semantic-release@^19.0.2:
   version "19.0.5"
