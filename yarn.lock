@@ -5265,10 +5265,10 @@ conventional-changelog-angular@^5.0.0, conventional-changelog-angular@^5.0.11:
     compare-func "^2.0.0"
     q "^1.5.1"
 
-conventional-changelog-gitmoji-config@1.4.6:
-  version "1.4.6"
-  resolved "https://registry.yarnpkg.com/conventional-changelog-gitmoji-config/-/conventional-changelog-gitmoji-config-1.4.6.tgz#b38bfbc23dba56b872070ae221637afa24e7aca9"
-  integrity sha512-dt5mCUeXARIhLt1DY+SDPIpdeiQIm/OELqJ6DKalh6CdOCOcrJ40JAwvLixO03UcNWVgLE7KnWyf0NdHN4s0iQ==
+conventional-changelog-gitmoji-config@1.4.7:
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/conventional-changelog-gitmoji-config/-/conventional-changelog-gitmoji-config-1.4.7.tgz#cda4a36bb5679b26b9f4a09a1ce2a06d7d2560e9"
+  integrity sha512-SQB7RZvhSld2OgcIeXOQ8jqFUan3Jype6oaPcRK71HTIKvFmmKVfgfHVZwNIk9Ufybxf791rtmrmPHyUKrrqdg==
   dependencies:
     "@gitmoji/commit-types" "1.1.5"
     "@gitmoji/parser-opts" "1.4.0"
@@ -14323,9 +14323,9 @@ select-hose@^2.0.0:
   integrity sha512-mEugaLK+YfkijB4fx0e6kImuJdCIt2LxCRcbEYPqRGCs4F2ogyfZU5IAZRdjCP8JPq2AtdNoC/Dux63d9Kiryg==
 
 semantic-release-config-gitmoji@^1.2.4:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/semantic-release-config-gitmoji/-/semantic-release-config-gitmoji-1.4.2.tgz#b758edf9070caaee1d90d653dc5189279477a19f"
-  integrity sha512-UYu8ptxiyRyWWD9sg1emyzGosHuM227/Z11fZvwKRmzQomFoojvnFHOnYb14nHuLJphJ0dtdqoQ9mDDipp9ezQ==
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/semantic-release-config-gitmoji/-/semantic-release-config-gitmoji-1.4.3.tgz#90f51c4e83b297ce432eae0939ce914e0a28e8cf"
+  integrity sha512-fprTpMq7CiCwyuqVHBf0GOKLrennSF89foaHyb1tOkfRWfMqX45iO/m4vZ7gy+m3eXnyWtp1PCc6jKPNbfC8Kw==
   dependencies:
     "@gitmoji/commit-types" "1.1.5"
     "@semantic-release/changelog" "^6"
@@ -14333,7 +14333,7 @@ semantic-release-config-gitmoji@^1.2.4:
     "@semantic-release/github" "npm:@achingbrain/semantic-release-github"
     "@semrel-extra/npm" "^1"
     "@types/semantic-release" "^17.2.0"
-    conventional-changelog-gitmoji-config "1.4.6"
+    conventional-changelog-gitmoji-config "1.4.7"
 
 semantic-release@^19.0.2:
   version "19.0.5"
