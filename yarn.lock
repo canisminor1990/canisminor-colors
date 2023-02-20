@@ -1368,7 +1368,7 @@
   resolved "https://registry.npmmirror.com/@ctrl/tinycolor/-/tinycolor-3.4.1.tgz#75b4c27948c81e88ccd3a8902047bcd797f38d32"
   integrity sha512-ej5oVy6lykXsvieQtqZxCOaLT+xD4+QNarq78cIYISHmZXshCvROLudpQN3lfL8G0NL7plMSSK+zlyvCaIJ4Iw==
 
-"@emotion/babel-plugin@^11.10.5", "@emotion/babel-plugin@^11.10.6":
+"@emotion/babel-plugin@^11.10.6":
   version "11.10.6"
   resolved "https://registry.yarnpkg.com/@emotion/babel-plugin/-/babel-plugin-11.10.6.tgz#a68ee4b019d661d6f37dec4b8903255766925ead"
   integrity sha512-p2dAqtVrkhSa7xz1u/m9eHYdLi+en8NowrmXeF/dKtJpU8lCWli8RUAati7NcSl0afsBott48pdnANuD0wh9QQ==
@@ -2757,9 +2757,9 @@
     "@babel/types" "^7.3.0"
 
 "@types/chroma-js@^2.1.3":
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/@types/chroma-js/-/chroma-js-2.1.5.tgz#d2adeb5e23d90b7ffa1ad83cdd9ff2548d407312"
-  integrity sha512-LnJmElng1zoH7GOYqIo/EuL7L0/vEh5rc+fKaF4rsylJyjwOkX0pXeBemH25FQAWHifKJWqaRwR0EhC+yDod9A==
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@types/chroma-js/-/chroma-js-2.4.0.tgz#476a16ae848c77478079d6749236fdb98837b92c"
+  integrity sha512-JklMxityrwjBTjGY2anH8JaTx3yjRU3/sEHSblLH1ba5lqcSh1LnImXJZO5peJfXyqKYWjHTGy4s5Wz++hARrw==
 
 "@types/eslint@^7.2.13":
   version "7.29.0"
