@@ -2122,9 +2122,9 @@
     stringify-object "^3.3.0"
 
 "@material/material-color-utilities@^0.2.0":
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/@material/material-color-utilities/-/material-color-utilities-0.2.4.tgz#30f22a991f500d289fa16536f76f93228207020d"
-  integrity sha512-UsJO907S9/5Tf19KwGjEFggswGyCO/WYKBzfDNr8TN9V+7snfC2zV8pN0WXdqt+IS7EvDDZp0rpMXptSPSiKVw==
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/@material/material-color-utilities/-/material-color-utilities-0.2.5.tgz#1161e8bb134297ce0a4190e405acb9d1b3951747"
+  integrity sha512-u08mIIzSHySU8lbxKbBFqNuEf6HpFv9VUrxTcKNcip3bEvWEpLeE6JTtgxMcz+sUqHcykT0jIzzskoYAlgKVEw==
 
 "@microsoft/api-extractor-model@7.26.3":
   version "7.26.3"
