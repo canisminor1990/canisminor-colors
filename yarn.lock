@@ -5418,10 +5418,10 @@ conventional-changelog-angular@^5.0.0, conventional-changelog-angular@^5.0.11:
     compare-func "^2.0.0"
     q "^1.5.1"
 
-conventional-changelog-gitmoji-config@1.4.6:
-  version "1.4.6"
-  resolved "https://registry.yarnpkg.com/conventional-changelog-gitmoji-config/-/conventional-changelog-gitmoji-config-1.4.6.tgz#b38bfbc23dba56b872070ae221637afa24e7aca9"
-  integrity sha512-dt5mCUeXARIhLt1DY+SDPIpdeiQIm/OELqJ6DKalh6CdOCOcrJ40JAwvLixO03UcNWVgLE7KnWyf0NdHN4s0iQ==
+conventional-changelog-gitmoji-config@1.4.7:
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/conventional-changelog-gitmoji-config/-/conventional-changelog-gitmoji-config-1.4.7.tgz#cda4a36bb5679b26b9f4a09a1ce2a06d7d2560e9"
+  integrity sha512-SQB7RZvhSld2OgcIeXOQ8jqFUan3Jype6oaPcRK71HTIKvFmmKVfgfHVZwNIk9Ufybxf791rtmrmPHyUKrrqdg==
   dependencies:
     "@gitmoji/commit-types" "1.1.5"
     "@gitmoji/parser-opts" "1.4.0"
@@ -14495,10 +14495,10 @@ select-hose@^2.0.0:
   resolved "https://registry.npmmirror.com/select-hose/-/select-hose-2.0.0.tgz#625d8658f865af43ec962bfc376a37359a4994ca"
   integrity sha512-mEugaLK+YfkijB4fx0e6kImuJdCIt2LxCRcbEYPqRGCs4F2ogyfZU5IAZRdjCP8JPq2AtdNoC/Dux63d9Kiryg==
 
-semantic-release-config-gitmoji@^1.2.4:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/semantic-release-config-gitmoji/-/semantic-release-config-gitmoji-1.4.2.tgz#b758edf9070caaee1d90d653dc5189279477a19f"
-  integrity sha512-UYu8ptxiyRyWWD9sg1emyzGosHuM227/Z11fZvwKRmzQomFoojvnFHOnYb14nHuLJphJ0dtdqoQ9mDDipp9ezQ==
+semantic-release-config-gitmoji@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/semantic-release-config-gitmoji/-/semantic-release-config-gitmoji-1.5.0.tgz#634b436a809545b848ec6ebde55b281cc828a3e0"
+  integrity sha512-Eh4UiYiqQ+JKmWHpKKDbH/KDbqhfrKcKW1cbTFQtrI9NiBQLpUvBuAIbqin+1NsVxcPVKLw5L2UOD3jy04+Jng==
   dependencies:
     "@gitmoji/commit-types" "1.1.5"
     "@semantic-release/changelog" "^6"
@@ -14506,7 +14506,7 @@ semantic-release-config-gitmoji@^1.2.4:
     "@semantic-release/github" "npm:@achingbrain/semantic-release-github"
     "@semrel-extra/npm" "^1"
     "@types/semantic-release" "^17.2.0"
-    conventional-changelog-gitmoji-config "1.4.6"
+    conventional-changelog-gitmoji-config "1.4.7"
 
 semantic-release@^19.0.2:
   version "19.0.5"
