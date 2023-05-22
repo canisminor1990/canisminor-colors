@@ -22,6 +22,13 @@
   dependencies:
     "@ctrl/tinycolor" "^3.4.0"
 
+"@ant-design/colors@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/@ant-design/colors/-/colors-7.0.0.tgz#eb7eecead124c3533aea05d61254f0a17f2b61b3"
+  integrity sha512-iVm/9PfGCbC0dSMBrz7oiEXZaaGH7ceU40OJEfKmyuzR9R5CRimJYPlRiFtMQGQcbNMea/ePcoIebi4ASGYXtg==
+  dependencies:
+    "@ctrl/tinycolor" "^3.4.0"
+
 "@ant-design/icons-svg@^4.2.1":
   version "4.2.1"
   resolved "https://registry.npmmirror.com/@ant-design/icons-svg/-/icons-svg-4.2.1.tgz#8630da8eb4471a4aabdaed7d1ff6a97dcb2cf05a"
@@ -33,6 +40,17 @@
   integrity sha512-T89P2jG2vM7OJ0IfGx2+9FC5sQjtTzRSz+mCHTXkFn/ELZc2YpfStmYHmqzq2Jx55J0F7+O6i5/ZKFSVNWCKNg==
   dependencies:
     "@ant-design/colors" "^6.0.0"
+    "@ant-design/icons-svg" "^4.2.1"
+    "@babel/runtime" "^7.11.2"
+    classnames "^2.2.6"
+    rc-util "^5.9.4"
+
+"@ant-design/icons@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@ant-design/icons/-/icons-5.1.0.tgz#bf49df406f31ad2a613d35d3929daf2336279298"
+  integrity sha512-s7NJeBY2NS44+sAhpgaxtgvBda81vpVxLPXXdCWNXwIVR8T7DdhDsSZqqVMPlZwCKwRo89ksWhFifZo0Ulgxdw==
+  dependencies:
+    "@ant-design/colors" "^7.0.0"
     "@ant-design/icons-svg" "^4.2.1"
     "@babel/runtime" "^7.11.2"
     classnames "^2.2.6"
