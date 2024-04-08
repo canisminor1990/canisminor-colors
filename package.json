@@ -95,7 +95,7 @@
     "lodash": "^4.17.21",
     "prettier": "^2.2.1",
     "react-copy-to-clipboard": "^5.1.0",
-    "semantic-release": "^19.0.2",
+    "semantic-release": "^23.0.7",
     "semantic-release-config-gitmoji": "^1.5.0",
     "ts-jest": "^26.x",
     "yorkie": "^2.0.0"
